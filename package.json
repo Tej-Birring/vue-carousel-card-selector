@@ -1,16 +1,25 @@
 {
-  "name": "card-carousel-search",
+  "name": "vue-carousel-card-selector",
+  "description": "An animated component to allow selection of a single item from many; items passed as array.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name vue-carousel-card-selector ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "gsap": "^3.10.4",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
     "vue": "^3.2.13"
   },
+  "main": "dist/vue-carousel-card-selector.common.js",
+  "files": [
+    "dist/*"
+  ],
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",

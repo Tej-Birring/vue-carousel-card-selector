@@ -1,0 +1,24 @@
+$width-mob: 144px;
+$height-mob: 233px;
+$width-full: 377px; // 400px
+$height-full: 610px;
+
+$card-background-color: #ffffff;
+$card-padding: 12.5px;
+$card-border-radius: 12.5px;
+$highlighted-card-outline-width: 4px;
+$highlighted-card-outline-color: #84BCDA;
+$disabled-card-background-color: #e6e6e6;
+$disabled-card-color: #6e6e6e;
+
+$input-border-radius: 100px;
+$input-color: #067BC2;
+$input-background-color: #D6E4F0;
+$highlighted-input-color: #fff;
+$highlighted-input-background-color: #84BCDA;
+$disabled-input-color: #6e6e6e;
+$disabled-input-background-color: #e6e6e6;
+
+@mixin shadow() {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
